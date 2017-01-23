@@ -1,6 +1,50 @@
+/* style for all */
 body {
     width: 960px;
     margin: 0 auto;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-color: 
+}
+h1, h2, h3 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+}
+header {
+    border-width: 15px;
+    border-color: #ffffff;
+    padding: 15px;
+}
+#logo {
+    float: left;
+    padding: 15px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+nav {
+    float: right;
+}
+.main {
+    border-color: #dddddd;
+    border-width: 3px;
+}
+#bio {
+    width: 650px;
+    float: left;
+    
+}
+aside {
+    width: 35%;
+    float: right;
+}
+/*.clear {
+    clear: both; */
+}
+footer {
+    width: 100%;
+    clear: both;
+    background-color: #666666;
+
 }
 /* contact form */
 form {
