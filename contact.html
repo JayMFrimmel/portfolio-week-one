@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="us-en">
+<html lang="en">
 	<head>
 		<title>Portfolio</title>
 			<link rel="stylesheet" type="text/css" href="assets/css/assets">
@@ -14,16 +14,53 @@
 			<div id="logo">
 				<a href="index.html"><h1>Jay M. Frimmel</h1></a>
 			</div>
-		<nav>
-			<a href="index.html">About</a>
-			<a href="portfolio.html">Portfolio</a>
-			<a href="contact.html">Contact</a>
-			
-		</nav>		
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>		
 		</div>
 	</header>
 
+	<div class="container">
+		<div id="form">
+			<h2>Contact Me</h2>
+			<form action="send-email.php" method="post">
+				<div>
+					<label for="first_name">First Name</label>
+					<input type="text" id="first_name" name="first_name" required="required" placeholder="Robert" />
+				</div>
+				<div>
+					<label for="last_name">Last Name</label>
+					<input type="text" id="last_name" name="last_name" required="required" placeholder="Moore">
+				</div>
+				<div>
+					<label for="mail">E-mail:</label>
+					<input type="email" id="mail" name="user_email" required="required" placeholder="RMoore@gmail.com" />
+				</div>
+				<div>
+					<label for="msg">Your Message</label>
+					<textarea id="msg" name="user_message"></textarea>
+				</div>
+				<div class="button">
+					<button type="submit">Send</button>
+				</div>
+			</form>
+		</div>
+	</div>		
 
+		<aside>
+			<h3>Connect With Me</h3>
+			<div class="container">
+				<img src="C:/Users/jayfr/Pictures/images/github-512.png" alt="Github" style="width: 75px; height: 75px">
+				<img src="C:/Users/jayfr/Pictures/images/linkdin.png" alt="LinkedIn" style="width: 75px; height: 75px">
+				<img src="C:/Users/jayfr/Pictures/images/stackoverflow.png" alt="stackoverflow" style="width: 75px; height: 75px">
+			</div>
+		</aside>
+
+		<footer>
+			<p><small>&copy; copyright 2017 Jay M. Frimmel</small></p>
+		</footer>
 
 </body>
 </html>
